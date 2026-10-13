@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+#left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+#logo {
+    display: flex;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+#quick {
+    color: orange;
+}
+#it {
+    color: green;
+}
+#loc {
+    min-width: 100px;
+}
+#loc h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#location {
+    width: 125px;
+    height: 30px;
+    font-size: 16px;
+}
+#search {
+    flex: 1;
+    min-width: 100px;
+    height: 35px;
+    padding: 5px;
+    font-size: 16px;
+}
+#login-btn {
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+#cart-btn {
+    height: 35px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+#images {
+    display: flex;
+    gap: 20px;
+    width: 82%;
+    margin: 0 auto;
+}
+
+#image1{
+    padding: 10px;
+    width: 33.33%;
+}
+#image2{
+    padding: 10px;
+    width: 33.33%;
+}
+#image3{
+    padding: 10px;
+    margin-right: 5%;
+      width: 33.33%;
+}
+#item-row1,
+#item-row2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+#item-row1 img,
+#item-row2 img {
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+}
+#row-1{
+    padding: 5%;
+    display: flex;
+}
+#cat{
+    padding-left: 400px;
+}
+#row-2{
+    padding-left: 5%;
+    display: flex;
+}
+#row-3{
+    padding-left: 5%;
+    display: flex;
+}
+#banner {
+    width: 82%;
+    margin: 18px auto 35px;
+}
+#banner img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+#images img {
+   width: 32%;
+    height: auto;
+    border-radius: 12px;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 8% 20px;
+    margin-top: 60px;
+    color: #555;
+}
+#footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.links h3 {
+    color: #222;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.links{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    cursor: pointer;
+}
+.links :hover {
+    color: green;
+}
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
